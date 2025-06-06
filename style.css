@@ -1,0 +1,74 @@
+body {
+  font-family: 'Belanosima', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertically center */
+  align-items: center;     /* horizontally center */
+  text-align: center;
+}
+
+.center-container {
+  margin-bottom: 40px; /* spacing between sections */
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.2em;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.sprint-categories {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 40px; /* spacing from footer */
+}
+
+.sprint-card {
+  background-color: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.sprint-card:hover {
+  transform: scale(1.05);
+}
+
+.sprint-card h3 {
+  margin: 0 0 10px 0;
+}
+
+.sprint-card a {
+  display: inline-block;
+  width: 120px; /* adjust as needed */
+  text-align: center;
+  padding: 10px 0;
+  background-color: #7d6bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer h4 {
+  margin: 5px 0;
+}
