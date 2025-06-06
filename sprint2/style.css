@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: 'Belanosima', bold;
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 40px;
+  }
+  
+  img {
+    max-width: 90%; /* keeps responsiveness */
+    width: 1200px; /* or any appropriate size */
+    height: auto;
+    margin: 20px 0;
+    border-radius: 8px; /* optional: for rounded corners */
+  }
+  
+  
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .row img {
+    height: auto;
+    width: 200px;
+    object-fit: cover;
+  }
+  
+  .video-container {
+    width: 800px;         /* Set a fixed width */
+    margin: 0 auto;       /* Center it horizontally */
+  }
+  
+
+  .small-video {
+    justify-content: center;
+    width: 250px; /* or any size you want */
+    height: auto; /* keeps aspect ratio */
+  }
+  
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+  }
+  
+  .card {
+    width: 250px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+  }
+
+  .center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  

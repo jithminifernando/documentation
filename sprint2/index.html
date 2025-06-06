@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <head>
+ <!-- other head content -->
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima&display=swap" rel="stylesheet">
+  </head>
+  <meta charset="utf-8" />
+  <title>9 Image Grid</title>
+  <link rel="stylesheet" href="style.css" />
+  
+</head>
+<body>
+  <h1>TAKE A BREAK | Browser extension</h1>
+  <h2>For Sprint 2, the theme was “Take a break.” 
+    In our group, we decided to make browser extensions that would interrupt the user after a while, to get them off the screen for a bit. Each of us created our own version of an extension based on that idea. It was a bit overwhelming at first, because even though I had made my own website for a module before with CSS and HTML and kind of forgot the majority of that module. But after a while I got the hang of it.
+My first concept was to have the extension interrupt the user after around 20 minutes, and then block the website for 5 minutes, similar to a Pomodoro timer. At first, I thought the break could start when the user clicks on an i-dot (like the info icons on websites), and that dot would expand to cover the whole screen. But I realized that relying on someone clicking exactly on an i-dot wasn’t very likely, so I changed my idea.
+Next, I thought it would be better if the user could just click anywhere, and from that click, a circle would grow. To make it a bit more meditative, like the others in the group were doing, I also made the circles transparent. That way, with every click, the screen would slowly get more and more covered, and eventually, a “time for a break” message would appear as if it was submerged under the layers. With that effect it kind of reminded me of rain drops, which I thought was fun.
+Overall, I really enjoyed experimenting with different versions of this idea, especially with the colours and interactions. One thing that was (and still is) a bit challenging is getting the timer to work the way I want, but I’m slowly figuring it out. Also, coding together through live share was super helpful. That’s actually how I managed to get the “transparency and circle growth” extension to work, by building on some code that someone else in the group had already made.
+
+    </h2>
+ <div class="row">
+    <video width="640" height="360" controls>
+        <source src="videos/video1.mov" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <video width="640" height="360" controls>
+        <source src="videos/video2.mov" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+ </div>
+ <h3>These are my first two sketches, both based on a breathing rhythm.
+    The one on the left pauses for a few seconds at the top and bottom of the movement — simulating the act of "holding your breath" — before continuing.
+    As I explored ideas for my browser extension, I modified this version slightly by adding a subtle growth to the circle during each pause, so that over time it gradually expands and eventually fills the entire canvas.</h3>
+
+ <div class="row">
+    <video width="640" height="360" controls>
+        <source src="videos/extention2.mov" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+ </div>
+ <h3>Building on the previous two sketches, I developed this browser extension.
+    It reacts to clicks near an "i-dot" by triggering an expansion that gradually fills the entire screen, temporarily blocking interaction with the page.
+    However, after discussing the concept, I realized that the chances of a user clicking close to an i-dot were extremely low — meaning the extension would likely never activate. This insight led me to return to the sketches and rethink the idea entirely.</h3>
+
+ <div class="video-container">
+    <video width="640" height="360" controls class="small-video"> 
+        <source src="videos/video3.mov" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <video width="640" height="360" controls class="small-video"> 
+        <source src="videos/video4.mov" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <video width="640" height="360" controls class="small-video"> 
+        <source src="videos/video5.mov" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+ </div>
+<h3>Since I still really liked the idea of a growing circle, I decided to let a dot expand from anywhere the user clicks, no longer relying on DOM elements. I also experimented with opacity — and really liked how the screen became increasingly opaque with each click, eventually filling in completely.
+    To make it feel less plain, I tied this visual buildup to a hidden message that gradually becomes visible with each click. In the end, the screen is fully covered, revealing a message like “Time to take a break”, which then blocks access to the site for about five minutes.</h3>
+ <div class="row">
+    <video width="640" height="360" controls>
+        <source src="videos/extention1.mov" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+ </div>
+ <h3>USE OF CHATPGT: During the second sprint, I surprisingly started out without relying on ChatGPT as much as I expected.
+    I think this was because I was working directly on the p5.js website, where I had access to several tutorials that only needed minor modifications.
+    Things got more challenging once I had to turn my sketch into a browser extension with interactive features — that’s when it got tricky.
+    We were working with JavaScript, and at that point, I started asking ChatGPT for help more frequently.
+    But just like before, I didn’t just copy the code — I asked for detailed explanations so I could understand what each part of the code was doing.
+    
+    </h3>
+</body>
+</html>
